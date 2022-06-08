@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Selectores combinadores */
+
+        /* Descendentes */
+        div p {
+            color: lime;
+        }
+
+        /* Hijo directo */
+        div > div {
+            background: violet;
+        }
+
+        /* Elemento adyacente */
+        div + section {
+            background: tomato;
+        }
+        /* General de hermanos */
+        div ~ p {
+            color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p>Platzi</p>
+        </div>
+        <p>es</p>
+        <p>increible</p>
+    </div>
+    <div>
+        <p>Master</p>
+    </div>
+    <section>
+        es lo mejor
+    </section>
+        que hay
+    </section>
+</body>
+</html>
