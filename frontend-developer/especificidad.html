@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #platzi {
+            color: red;
+        }
+
+        .master {
+            color: springgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Especificidad</h1>
+    <ul>
+        <li>xoooo | !important</li>
+        <li>&nbsp;&nbsp;xooo | Estilos en línea</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;xoo | # Id</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xo | Clases, atributos y pseudoclases</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x | Elementos y pseudoelementos</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o | Selector universal</li>
+    </ul>
+
+    <div id="platzi" class="master">Platzi</div>
+</body>
+</html>
